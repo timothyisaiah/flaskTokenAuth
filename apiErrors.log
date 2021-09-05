@@ -1,0 +1,177 @@
+2021-09-03 18:57:21,328 werkzeug - INFO:127.0.0.1 - - [03/Sep/2021 18:57:21] "POST /api/auth/ HTTP/1.1" 200 -
+2021-09-03 19:03:41,007 werkzeug - INFO:127.0.0.1 - - [03/Sep/2021 19:03:41] "POST /api/auth/freeAttendance HTTP/1.1" 200 -
+2021-09-03 19:18:32,016 werkzeug - INFO: * Detected change in 'D:\\Isaiah\\Isaiah\\Gigs\\Everest Guage\\everestpy\\everesttokenauth\\utils.py', reloading
+2021-09-03 19:18:32,788 werkzeug - INFO: * Restarting with stat
+2021-09-03 19:18:39,455 blueprint_auth - ERROR:'NoneType' object has no attribute 'id'
+2021-09-03 19:18:39,456 blueprint_auth - ERROR:'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\blueprint_auth.py", line 153, in freeAttendance
+    'user_id': data.id,
+AttributeError: 'NoneType' object has no attribute 'id'
+2021-09-03 19:18:39,469 werkzeug - INFO:127.0.0.1 - - [03/Sep/2021 19:18:39] "POST /api/auth/freeAttendance HTTP/1.1" 500 -
+2021-09-03 19:18:39,476 werkzeug - ERROR:Error on request:
+Traceback (most recent call last):
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\werkzeug\serving.py", line 304, in run_wsgi
+    execute(self.server.app)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\werkzeug\serving.py", line 292, in execute
+    application_iter = app(environ, start_response)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 2096, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2021-09-03 19:20:43,574 werkzeug - INFO: * Detected change in 'D:\\Isaiah\\Isaiah\\Gigs\\Everest Guage\\everestpy\\everesttokenauth\\utils.py', reloading
+2021-09-03 19:20:44,439 werkzeug - INFO: * Restarting with stat
+2021-09-03 19:20:46,529 blueprint_auth - ERROR:'NoneType' object has no attribute 'id'
+2021-09-03 19:20:46,530 blueprint_auth - ERROR:'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\blueprint_auth.py", line 153, in freeAttendance
+    'user_id': data.id,
+AttributeError: 'NoneType' object has no attribute 'id'
+2021-09-03 19:20:46,545 werkzeug - INFO:127.0.0.1 - - [03/Sep/2021 19:20:46] "POST /api/auth/freeAttendance HTTP/1.1" 500 -
+2021-09-03 19:20:46,550 werkzeug - ERROR:Error on request:
+Traceback (most recent call last):
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\werkzeug\serving.py", line 304, in run_wsgi
+    execute(self.server.app)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\werkzeug\serving.py", line 292, in execute
+    application_iter = app(environ, start_response)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 2096, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2021-09-03 19:20:57,239 blueprint_auth - ERROR:'NoneType' object has no attribute 'id'
+2021-09-03 19:20:57,240 blueprint_auth - ERROR:'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\blueprint_auth.py", line 153, in freeAttendance
+    'user_id': data.id,
+AttributeError: 'NoneType' object has no attribute 'id'
+2021-09-03 19:20:57,250 werkzeug - INFO:127.0.0.1 - - [03/Sep/2021 19:20:57] "POST /api/auth/freeAttendance HTTP/1.1" 500 -
+2021-09-03 19:20:57,257 werkzeug - ERROR:Error on request:
+Traceback (most recent call last):
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\werkzeug\serving.py", line 304, in run_wsgi
+    execute(self.server.app)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\werkzeug\serving.py", line 292, in execute
+    application_iter = app(environ, start_response)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 2096, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2021-09-03 19:22:06,502 werkzeug - INFO: * Detected change in 'D:\\Isaiah\\Isaiah\\Gigs\\Everest Guage\\everestpy\\everesttokenauth\\utils.py', reloading
+2021-09-03 19:22:07,430 werkzeug - INFO: * Restarting with stat
+2021-09-03 19:22:11,751 blueprint_auth - ERROR:'NoneType' object has no attribute 'id'
+2021-09-03 19:22:11,751 blueprint_auth - ERROR:'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\blueprint_auth.py", line 153, in freeAttendance
+    'user_id': data.id,
+AttributeError: 'NoneType' object has no attribute 'id'
+2021-09-03 19:22:11,764 werkzeug - INFO:127.0.0.1 - - [03/Sep/2021 19:22:11] "POST /api/auth/freeAttendance HTTP/1.1" 500 -
+2021-09-03 19:22:11,769 werkzeug - ERROR:Error on request:
+Traceback (most recent call last):
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\werkzeug\serving.py", line 304, in run_wsgi
+    execute(self.server.app)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\werkzeug\serving.py", line 292, in execute
+    application_iter = app(environ, start_response)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 2096, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2021-09-03 19:25:20,575 werkzeug - INFO: * Detected change in 'D:\\Isaiah\\Isaiah\\Gigs\\Everest Guage\\everestpy\\everesttokenauth\\utils.py', reloading
+2021-09-03 19:25:21,466 werkzeug - INFO: * Restarting with stat
+2021-09-03 19:25:27,472 blueprint_auth - ERROR:'NoneType' object has no attribute 'id'
+2021-09-03 19:25:27,472 blueprint_auth - ERROR:'NoneType' object has no attribute 'id'
+Traceback (most recent call last):
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\blueprint_auth.py", line 153, in freeAttendance
+    'user_id': data.id,
+AttributeError: 'NoneType' object has no attribute 'id'
+2021-09-03 19:25:27,487 werkzeug - INFO:127.0.0.1 - - [03/Sep/2021 19:25:27] "POST /api/auth/freeAttendance HTTP/1.1" 500 -
+2021-09-03 19:25:27,492 werkzeug - ERROR:Error on request:
+Traceback (most recent call last):
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\werkzeug\serving.py", line 304, in run_wsgi
+    execute(self.server.app)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\werkzeug\serving.py", line 292, in execute
+    application_iter = app(environ, start_response)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 1967, in finalize_request
+    response = self.make_response(rv)
+  File "D:\Isaiah\Isaiah\Gigs\Everest Guage\everestpy\everesttokenauth\env\Lib\site-packages\flask\app.py", line 2096, in make_response
+    raise TypeError(
+TypeError: The view function did not return a valid response. The function either returned None or ended without a return statement.
+2021-09-03 19:26:43,889 werkzeug - INFO: * Detected change in 'D:\\Isaiah\\Isaiah\\Gigs\\Everest Guage\\everestpy\\everesttokenauth\\utils.py', reloading
+2021-09-03 19:26:44,676 werkzeug - INFO: * Restarting with stat
+2021-09-03 19:26:48,070 werkzeug - INFO:127.0.0.1 - - [03/Sep/2021 19:26:48] "POST /api/auth/freeAttendance HTTP/1.1" 200 -
+2021-09-03 19:29:45,902 werkzeug - INFO: * Detected change in 'D:\\Isaiah\\Isaiah\\Gigs\\Everest Guage\\everestpy\\everesttokenauth\\blueprint_auth.py', reloading
+2021-09-03 19:29:46,690 werkzeug - INFO: * Restarting with stat
+2021-09-03 20:49:08,277 werkzeug - INFO: * Detected change in 'D:\\Isaiah\\Isaiah\\Gigs\\Everest Guage\\everestpy\\everesttokenauth\\app.py', reloading
+2021-09-03 20:49:08,929 werkzeug - INFO: * Restarting with stat
+2021-09-03 20:50:13,031 werkzeug - INFO: * Detected change in 'D:\\Isaiah\\Isaiah\\Gigs\\Everest Guage\\everestpy\\everesttokenauth\\blueprint_auth.py', reloading
+2021-09-03 20:50:13,961 werkzeug - INFO: * Restarting with stat
+2021-09-03 20:50:29,625 werkzeug - INFO: * Detected change in 'D:\\Isaiah\\Isaiah\\Gigs\\Everest Guage\\everestpy\\everesttokenauth\\app.py', reloading
+2021-09-03 20:50:30,286 werkzeug - INFO: * Restarting with stat
+2021-09-03 20:51:42,652 werkzeug - INFO: * Detected change in 'D:\\Isaiah\\Isaiah\\Gigs\\Everest Guage\\everestpy\\everesttokenauth\\app.py', reloading
+2021-09-03 20:51:43,559 werkzeug - INFO: * Restarting with stat
+2021-09-03 20:51:55,011 werkzeug - INFO: * Detected change in 'D:\\Isaiah\\Isaiah\\Gigs\\Everest Guage\\everestpy\\everesttokenauth\\blueprint_auth.py', reloading
+2021-09-03 20:51:55,768 werkzeug - INFO: * Restarting with stat
+2021-09-03 20:52:13,635 werkzeug - INFO: * Detected change in 'D:\\Isaiah\\Isaiah\\Gigs\\Everest Guage\\everestpy\\everesttokenauth\\blueprint_auth.py', reloading
+2021-09-03 20:52:14,330 werkzeug - INFO: * Restarting with stat
